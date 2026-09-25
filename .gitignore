@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Environment / secrets
+.env
+backend/.env
+frontend/.env
+
+# ARES local data
+backend/data/ares.db
+backend/data/ares.db-*
+backend/data/chroma_db/
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Tauri / Rust
+frontend/src-tauri/target/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
